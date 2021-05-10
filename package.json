@@ -1,6 +1,6 @@
 {
   "name": "ql-stats-model",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A typed and documented Quake Live stats data model",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,6 +11,11 @@
     "lib": "lib"
   },
   "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
   "scripts": {

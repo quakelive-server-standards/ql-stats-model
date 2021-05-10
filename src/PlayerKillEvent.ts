@@ -4,7 +4,7 @@ import { PowerUpType } from './types/PowerUpType'
 import { TeamType } from './types/TeamType'
 import { WeaponType } from './types/WeaponType'
 
-export default class PlayerKillEvent {
+export class PlayerKillEvent {
 
   matchGuid: string
   time: number

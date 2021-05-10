@@ -1,6 +1,6 @@
 import { TeamType } from './types/TeamType'
 
-export default class RoundOverEvent {
+export class RoundOverEvent {
 
   matchGuid: string
   round: number

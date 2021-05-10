@@ -1,6 +1,6 @@
 import { GameType } from './types/GameType'
 
-export class MatchReport {
+export class MatchReportEvent {
   
   aborted: boolean // what is this exactly?
   captureLimit: number
@@ -29,8 +29,8 @@ export class MatchReport {
   teamScore0: number
   teamScore1: number
 
-  static fromQl(data: any): MatchReport {
-    let event = new MatchReport
+  static fromQl(data: any): MatchReportEvent {
+    let event = new MatchReportEvent
 
     event.aborted = data['ABORTED']
     event.captureLimit = data['CAPTURE_LIMIT']

@@ -1,4 +1,4 @@
-export default class PlayerDisconnectEvent {
+export class PlayerDisconnectEvent {
   
   matchGuid: string
   name: string

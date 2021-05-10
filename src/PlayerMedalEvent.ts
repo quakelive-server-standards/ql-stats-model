@@ -1,6 +1,6 @@
 import { MedalType } from './types/MedalType'
 
-export default class PlayerMedalEvent {
+export class PlayerMedalEvent {
 
   matchGuid: string
   medal: MedalType

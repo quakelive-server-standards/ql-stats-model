@@ -1,6 +1,6 @@
 import { TeamType } from './types/TeamType'
 
-export default class PlayerSwitchTeamEvent {
+export class PlayerSwitchTeamEvent {
 
   matchGuid: string
   name: string

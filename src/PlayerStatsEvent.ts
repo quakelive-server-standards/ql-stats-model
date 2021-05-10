@@ -5,7 +5,7 @@ import { TeamType } from './types/TeamType'
  * - after PlayerDisconnectedEvent
  * - before MatchReportEvent
  */
-export default class PlayerStatsEvent {
+export class PlayerStatsEvent {
 
   aborted: boolean // what is this?
   blueFlagPickups: number
