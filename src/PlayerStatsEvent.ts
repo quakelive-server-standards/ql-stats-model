@@ -88,7 +88,7 @@ export class PlayerStatsEvent {
     invisibility: number
     invulnerability: number
     kamikaze: number
-    medKit: number
+    medkit: number
     megaHealth: number
     otherHoldable: number
     otherPowerUp: number
@@ -310,7 +310,7 @@ export class PlayerStatsEvent {
       invisibility: data['PICKUPS']['INVIS'],
       invulnerability: data['PICKUPS']['INVULNERABILITY'],
       kamikaze: data['PICKUPS']['KAMIKAZE'],
-      medKit: data['PICKUPS']['MEDKIT'],
+      medkit: data['PICKUPS']['MEDKIT'],
       megaHealth: data['PICKUPS']['MEGA_HEALTH'],
       otherHoldable: data['PICKUPS']['OTHER_HOLDABLE'],
       otherPowerUp: data['PICKUPS']['OTHER_POWERUP'],
