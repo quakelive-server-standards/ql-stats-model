@@ -40,6 +40,7 @@ export enum ModType {
 
 export function isEnvironment(mod: ModType) {
   return mod == ModType.CRUSH ||
+    mod == ModType.FALLING ||
     mod == ModType.HURT ||
     mod == ModType.LAVA ||
     mod == ModType.SLIME ||
