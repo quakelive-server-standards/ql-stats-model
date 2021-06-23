@@ -31,8 +31,19 @@ export enum ModType {
   SLIME = 'Slime',
   SWITCHTEAM = 'Switch team',
   TRIGGER_HURT = 'Trigger hurt',
+  WATER = 'Water',
   /**
    * Unkwown world death
    */
   UNKNOWN = 'Unknown'
+}
+
+export function isEnvironment(mod: ModType) {
+  return mod == ModType.CRUSH ||
+    mod == ModType.HURT ||
+    mod == ModType.LAVA ||
+    mod == ModType.SLIME ||
+    mod == ModType.TRIGGER_HURT ||
+    mod == ModType.WATER ||
+    mod == ModType.UNKNOWN
 }
