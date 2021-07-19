@@ -272,7 +272,7 @@ describe('stats/PlayerStatsEvent', function() {
     expect(event.pickups.invisibility).to.equal(ql['DATA']['PICKUPS']['INVIS'])
     expect(event.pickups.invulnerability).to.equal(ql['DATA']['PICKUPS']['INVULNERABILITY'])
     expect(event.pickups.kamikaze).to.equal(ql['DATA']['PICKUPS']['KAMIKAZE'])
-    expect(event.pickups.medKit).to.equal(ql['DATA']['PICKUPS']['MEDKIT'])
+    expect(event.pickups.medkit).to.equal(ql['DATA']['PICKUPS']['MEDKIT'])
     expect(event.pickups.megaHealth).to.equal(ql['DATA']['PICKUPS']['MEGA_HEALTH'])
     expect(event.pickups.otherHoldable).to.equal(ql['DATA']['PICKUPS']['OTHER_HOLDABLE'])
     expect(event.pickups.otherPowerUp).to.equal(ql['DATA']['PICKUPS']['OTHER_POWERUP'])
