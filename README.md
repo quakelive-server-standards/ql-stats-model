@@ -2102,7 +2102,7 @@ If the player connect, a PLAYER_CONNECT event is emitted.
 }
 ```
 
-### A match is aborted
+### A player quits
 
 ```json
 {

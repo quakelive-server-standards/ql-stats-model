@@ -26,8 +26,8 @@ export class MatchReportEvent {
   serverTitle: string
   timeLimit: number
   training: boolean
-  teamScore0: number
-  teamScore1: number
+  teamScore0: number // TODO: Rename to scoreRed
+  teamScore1: number // TODO: Rename to scoreBlue
 
   static fromQl(data: any): MatchReportEvent {
     let event = new MatchReportEvent
@@ -50,7 +50,7 @@ export class MatchReportEvent {
     event.matchGuid = data['MATCH_GUID']
     event.mercyLimit = data['MERCY_LIMIT']
     event.quadHog = data['QUADHOG'] ? true : false
-    event.restarted = data['RESTARTED']
+    event.restarted = data['RESTARTED'] ? true : false
     event.roundLimit = data['ROUND_LIMIT']
     event.scoreLimit = data['SCORE_LIMIT']
     event.serverTitle = data['SERVER_TITLE']

@@ -56,7 +56,7 @@ describe('stats/MatchReportEvent', function() {
     expect(event.matchGuid).to.equal(ql['DATA']['MATCH_GUID'])
     expect(event.mercyLimit).to.equal(ql['DATA']['MERCY_LIMIT'])
     expect(event.quadHog).to.equal(false)
-    expect(event.restarted).to.equal(ql['DATA']['RESTARTED'])
+    expect(event.restarted).to.equal(false)
     expect(event.roundLimit).to.equal(ql['DATA']['ROUND_LIMIT'])
     expect(event.scoreLimit).to.equal(ql['DATA']['SCORE_LIMIT'])
     expect(event.serverTitle).to.equal(ql['DATA']['SERVER_TITLE'])
